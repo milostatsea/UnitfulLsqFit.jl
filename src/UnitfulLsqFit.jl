@@ -85,7 +85,7 @@ function curve_fit(
     model,
     xdata::AbstractArray{<:AbstractQuantity},
     ydata::AbstractArray,
-    wt::AbstractArray,
+    wt::AbstractMatrix,
     p0::AbstractArray{<:AbstractQuantity};
     normalize=false,
     kwargs...,
